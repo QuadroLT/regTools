@@ -108,7 +108,7 @@ class Regression:
 
         return model
 
-    def confidence(self, replicates=1, new_x=None):
+    def criticalValues(self, replicates=1, new_x=None):
         """
         function to calculate confidence intervals for regression estimate.
         Function calculates both, confidence and prediction intervals based on
