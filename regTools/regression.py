@@ -235,4 +235,4 @@ class Regression:
                 - ys: string - column for measurement values
                 - labels: string - columns containing measured samples IDs
         """
-        pass
+        raise NotImplementedError
